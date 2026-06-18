@@ -1,4 +1,4 @@
-# evenements_campus
+# campus_event_clean
 
 A new Flutter project.
 

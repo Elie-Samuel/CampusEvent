@@ -1,6 +1,6 @@
 {
-    "name": "evenements_campus",
-    "short_name": "evenements_campus",
+    "name": "campus_event_clean",
+    "short_name": "campus_event_clean",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

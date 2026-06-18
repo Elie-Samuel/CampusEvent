@@ -53,6 +53,7 @@ Future<void> initDependencies() async {
   getIt.registerLazySingleton(() => RegisterUseCase(getIt<AuthRepository>()));
   getIt.registerLazySingleton(() => SendResetCodeUseCase(getIt<AuthRepository>()));
   getIt.registerLazySingleton(() => UpdateEmailUseCase(getIt<AuthRepository>()));
+  getIt.registerLazySingleton(() => ChangePasswordUseCase(getIt<AuthRepository>()));
   getIt.registerLazySingleton(() => SendResetCodeWithRoleUseCase(getIt<AuthRepository>()));
   getIt.registerLazySingleton(() => VerifyResetCodeUseCase(getIt<AuthRepository>()));
   getIt.registerLazySingleton(() => ResetPasswordWithCodeUseCase(getIt<AuthRepository>()));
@@ -92,6 +93,7 @@ Future<void> initDependencies() async {
     sendResetCodeWithRoleUseCase: getIt<SendResetCodeWithRoleUseCase>(),
     verifyResetCodeUseCase: getIt<VerifyResetCodeUseCase>(),
     resetPasswordWithCodeUseCase: getIt<ResetPasswordWithCodeUseCase>(),
+    updateEmailUseCase: getIt<UpdateEmailUseCase>(),
     updateProfileUseCase: getIt<UpdateProfileUseCase>(),
     getAllUsersUseCase: getIt<GetAllUsersUseCase>(),
     changePasswordUseCase: getIt<ChangePasswordUseCase>(), 

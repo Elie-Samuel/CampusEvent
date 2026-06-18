@@ -27,7 +27,7 @@ Le projet utilise deux principes principaux :
 
 ## Structure du projet
 
-Evenements_Campus/
+<pre><code>Evenements_Campus/
 ├── lib/
 │   ├── main.dart
 │   │
@@ -179,7 +179,7 @@ Evenements_Campus/
 ├── pubspec.yaml
 ├── pubspec.lock
 ├── README.md
-└── .gitignore
+└── .gitignore</code></pre>
 
 ## Couches principales
 
@@ -238,22 +238,30 @@ La couche `services` contient les services externes utilisés par l’applicatio
 
 1. Clonez le dépôt :
 
+```bash
 git clone <url-du-repository>
 cd Evenements_Campus
+```
 
 2. Installez les dépendances Flutter :
 
+```bash
 flutter pub get
+```
 
 3. Lancez l’application :
 
+```bash
 flutter run
+```
 
 ## Tests
 
 Exécutez les tests Flutter avec la commande suivante :
 
+```bash
 flutter test
+```
 
 ## Assets
 
